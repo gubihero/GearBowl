@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity"
+    android:orientation="vertical" >
+
+    <SurfaceView
+        android:id="@+id/gameView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <LinearLayout 
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        >
+        <LinearLayout 
+	        android:layout_height="50dp"
+	        android:layout_width="match_parent"
+	        android:orientation="horizontal"
+	        android:padding="0dp"
+	        android:layout_gravity="left">
+		        <ImageButton
+			        android:id="@+id/playerLeftButton"
+			        android:layout_width="50dp"
+			        android:layout_height="50dp"
+			        android:src="@drawable/yellow_team_button" />
+		        <TextView
+			        android:id="@+id/playerNum"
+			        android:layout_width="50dp"
+			        android:layout_height="50dp"
+			         />
+			    <ImageButton
+			        android:id="@+id/playerRightButton"
+			        android:layout_width="50dp"
+			        android:layout_height="50dp"
+			        android:src="@drawable/yellow_team_button" />
+
+			   
+
+		</LinearLayout>
+		<LinearLayout 
+	        android:layout_height="50dp"
+	        android:layout_width="match_parent"
+	        android:orientation="horizontal"
+	        android:padding="0dp"
+	        android:layout_gravity="right">
+		     <ImageButton
+		        android:id="@+id/hitButton"
+		        android:layout_width="50dp"
+		        android:layout_height="50dp"
+		        android:src="@drawable/green_team_button" />
+		
+		    <ImageButton
+		        android:id="@+id/moveButton"
+		        android:layout_width="50dp"
+		        android:layout_height="50dp"
+		        android:src="@drawable/blue_team_button" />
+		
+		    <ImageButton
+		        android:id="@+id/jumpButton"
+		        android:layout_width="50dp"
+		        android:layout_height="50dp"
+		        android:src="@drawable/red_team_button" />
+	    </LinearLayout>
+    </LinearLayout>
+
+    
+
+</LinearLayout>

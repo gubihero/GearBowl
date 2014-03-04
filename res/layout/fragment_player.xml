@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <TextView android:id="@+id/player_nickname"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+    />
+
+     <ImageView
+         android:id="@+id/player_image"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         
+          <TextView android:id="@+id/type_label"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/type_string"/>
+          
+	     <TextView android:id="@+id/player_type"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"/>
+	     
+	 </LinearLayout>
+	 <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+	     
+     <TextView android:id="@+id/exp_label"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/exp_string" />
+     
+      <TextView android:id="@+id/player_exp"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" />
+      
+     </LinearLayout>
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+	     
+     <TextView android:id="@+id/cost_label"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/cost_string" />
+     
+      <TextView android:id="@+id/player_cost"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" />
+      
+     </LinearLayout>
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+	     
+     <TextView android:id="@+id/strength_label"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/strength_string" />
+     
+      <TextView android:id="@+id/player_strength"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" />
+      
+     </LinearLayout>
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+	     
+     <TextView android:id="@+id/toughness_label"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/toughness_string" />
+     
+      <TextView android:id="@+id/player_toughness"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" />
+      
+     </LinearLayout>
+ 	 <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+	     
+     <TextView android:id="@+id/agility_label"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/agility_string" />
+     
+      <TextView android:id="@+id/player_agility"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" />
+      
+     </LinearLayout>
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+	     
+     <TextView android:id="@+id/dodge_label"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/dodge_string" />
+     
+      <TextView android:id="@+id/player_dodge"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" />
+      
+     </LinearLayout>
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+	     
+     <TextView android:id="@+id/jump_label"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/jump_string" />
+     
+      <TextView android:id="@+id/player_jump"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" />
+      
+     </LinearLayout>
+    <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+	     
+     <TextView android:id="@+id/hands_label"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/hands_string" />
+     
+      <TextView android:id="@+id/player_hands"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" />
+      
+     </LinearLayout>
+</LinearLayout>
