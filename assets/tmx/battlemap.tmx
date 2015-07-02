@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tiles" tilewidth="32" tileheight="32">
+  <image source="gfx/tiles_small.png" width="96" height="96"/>
+  <tile id="0">
+   <properties>
+    <property name="goal" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="wall" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="bin" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="warp" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="warp" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="30" height="30">
+  <properties>
+   <property name="wall" value="false"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+WXwQrAIAxDOxTE///hnQQpqIkt1rFDLm7Lc+msM4lIIvUosc83VVB5ws2ED8utg/t3PG7hFkMdtG9TAbiW+qMe6JhFXlx2TdzOPaFoLtNrrMqyrtMsD/baqMcz3n1v0T1hNSfd23fnzeb0Na5XzlHfVeQ6OsVEsjrN/dt+FL3vI+/CZLLiRv3XIZ7IGJv9jVzvcworj3PZCwMn804QDgAA
+  </data>
+ </layer>
+</map>

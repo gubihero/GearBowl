@@ -59,7 +59,7 @@ public class Team {
 		return this.mCost;
 	}
 	
-	public void setName(int newCost) {
+	public void setCost(int newCost) {
 		this.mCost = newCost;
 	}
 }

@@ -20,7 +20,16 @@
     <string name="dodge_string">Dodge:</string>
     <string name="jump_string">Jump:</string>
     <string name="hands_string">Hands:</string>
+    <string name="ap_string">AP:</string>
     <string name="team_builder_title">Team Builder</string>
-    <string name="title_activity_player">PlayerActivity</string>
+    <string name="title_activity_player_pager">PlayerPagerActivity</string>
+    <string name="clear_button">Clear</string>
+    <string name="hire_button">Hire</string>
+    <string name="fire_button">Fire</string>
+    <string name="save_button">Save</string>
+    <string name="load_button">Load</string>
+    <string name="music">Music</string>
+    <string name="sound">Sound</string>
+    <string name="title_activity_game">Game</string>
 
 </resources>

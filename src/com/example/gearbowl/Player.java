@@ -13,6 +13,8 @@ public class Player {
 	private int mHands;
 	private int mExperience;
 	private int mCost;
+	private int mAP;
+	private int mImage;
 	
 	public Player() {
 		this.mType = "Empty";
@@ -26,6 +28,9 @@ public class Player {
 		this.mHands = 0;
 		this.mExperience = 0;
 		this.mCost = 0;
+		this.mAP = 0;
+		//generic image
+		this.mImage = R.drawable.ic_launcher;
 	}
 	
 	@Override
@@ -119,5 +124,21 @@ public class Player {
 
 	public void setCost(int mCost) {
 		this.mCost = mCost;
+	}
+
+	public int getAP() {
+		return mAP;
+	}
+
+	public void setAP(int mAP) {
+		this.mAP = mAP;
+	}
+
+	public int getImage() {
+		return mImage;
+	}
+
+	public void setImage(int mImage) {
+		this.mImage = mImage;
 	}
 }

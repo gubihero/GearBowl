@@ -17,7 +17,7 @@
             android:scaleType="fitCenter"
             android:layout_margin="10dp"
             android:background="@null"
-            android:src="@drawable/red_team_button_small" />
+            android:src="@drawable/red_team_button_dark_small" />
 
         <TextView 
             android:id="@+id/team_one_name"
@@ -46,7 +46,7 @@
             android:layout_margin="10dp"
             android:scaleType="fitCenter"
             android:background="@null"
-            android:src="@drawable/green_team_button_small" />
+            android:src="@drawable/green_team_button_dark_small" />
         <TextView 
             android:id="@+id/team_two_name"
             android:layout_width="100dp"
@@ -74,7 +74,7 @@
             android:layout_margin="10dp"
             android:scaleType="fitCenter"
             android:background="@null"
-            android:src="@drawable/blue_team_button_small" />
+            android:src="@drawable/blue_team_button_dark_small" />
         
         <TextView 
             android:id="@+id/team_three_name"
@@ -103,7 +103,7 @@
             android:layout_margin="10dp"
             android:scaleType="fitCenter"
             android:background="@null"
-            android:src="@drawable/yellow_team_button_small" />
+            android:src="@drawable/yellow_team_button_dark_small" />
         
         <TextView 
             android:id="@+id/team_four_name"
@@ -140,7 +140,7 @@
             android:scaleType="fitCenter"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/ic_launcher" />
+            android:src="@drawable/battlemapmini" />
 
         <ImageButton
             android:id="@+id/map_right_button"
@@ -157,10 +157,10 @@
         android:gravity="bottom|center">
 
         <Button
-            android:id="@+id/back_button"
+            android:id="@+id/create_clear_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/back_button" />
+            android:text="@string/clear_button" />
 
         <Button
             android:id="@+id/play_button"

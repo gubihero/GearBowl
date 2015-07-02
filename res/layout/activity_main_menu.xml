@@ -3,23 +3,20 @@
     android:id="@+id/main_menu_button_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center|bottom"
-    android:orientation="horizontal"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:gravity="center"
     tools:context=".MainMenuActivity" >
-
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/mainback" />
     <Button
         android:id="@+id/new_game_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="0.48"
         android:gravity="center"
         android:text="@string/new_game_button" />
-
-    <Button
-        android:id="@+id/load_game_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.48"
-        android:text="@string/load_game_button" />
 
 </LinearLayout>
